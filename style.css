@@ -1,0 +1,16 @@
+
+header{
+    nav{
+        img{
+            max-height: 50px;
+        }
+        a{
+            &:hover{
+                color: #DFB680 !important;
+            }
+        }
+        button{
+            color: #DFB680 !important;
+        }
+    }
+}
