@@ -6,8 +6,10 @@ header{
             max-height: 50px;
         }
         a{
+            font-size: 1.1rem !important;
             &:hover{
                 color: #DFB680 !important;
+                /* scale: 1.05; */
             }
         }
         button{
@@ -78,5 +80,9 @@ footer{
             color: #DFB680 !important;
         }
 
+    }
+    h1{
+        color: #DFB680;
+        text-shadow:2px 2px 2px black !important;
     }
 }

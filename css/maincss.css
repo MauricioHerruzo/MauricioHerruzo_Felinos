@@ -1,5 +1,5 @@
 #banner{
-    background-image:  url("../img/leon/pexels-alexasfotos-2220336-min.jpg");
+    background-image:  url("../img/leon/1.jpg");
     background-position: center center;
     background-size: cover;
     i{
@@ -55,5 +55,13 @@
                 scale: 3;
             }
         }
+    }
+}
+
+.descubrir{
+    &:hover{
+        transition: 0.2s;
+        background-color: #DFB680;
+        scale: 1.1;
     }
 }

@@ -1,0 +1,56 @@
+main{
+    /* padding-top: 2000px !important; */
+}
+.explicacion{
+    background-image: url("../img/leon/4.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+h2{
+    color: #DFB680;
+    text-shadow:1px 1px 6px black !important;
+    font-size: 1.8rem;
+    @media (min-width: 768px){
+        font-size: 3.5rem;
+
+    }
+}
+.animal{
+border-bottom: 2px solid #DFB680 ;
+border-top:2px solid #DFB680 ;
+
+}
+.negro{
+    background-color: rgb(0, 0, 0, 0.9);
+    p{
+        text-shadow:1px 1px 6px black !important;
+    }
+    h5{
+        font-size: 1.5rem;
+        border-bottom: 1px solid #DFB680;
+        line-height: 2;
+        display: inline-block;
+    }
+}
+@media (min-width: 992px){
+    .negro{
+        height: 120vh;
+        align-items: center;
+    }
+}
+.prota{
+    height: 70vh !important;
+    @media (min-width: 992px){
+    height: 120vh !important;
+    }
+    background-image: url("../img/leon/5.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+i{
+    color: #DFB680;
+}
+main{
+    border-bottom: 2px solid #DFB680;
+}
+

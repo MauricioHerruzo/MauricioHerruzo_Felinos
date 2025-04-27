@@ -1,0 +1,99 @@
+.bannerArrow{
+    /* height: 100vh !important; */
+    margin-top: 80px;
+    /* background-image: url("../img/productionTeam/estudio.jpg");
+    background-position: center center;
+    background-size: cover; */
+}
+
+main{
+    /* padding-top: 2000px !important; */
+    border-bottom: 2px solid #DFB680;
+}
+.explicacion{
+    background-image: url("../img/leon/4.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+h2{
+    color: #DFB680;
+    text-shadow:1px 1px 6px black !important;
+    font-size: 1.8rem;
+    @media (min-width: 768px){
+        font-size: 3.5rem;
+
+    }
+}
+.animal{
+border-bottom: 2px solid #DFB680 ;
+border-top:2px solid #DFB680 ;
+
+}
+.negro{
+    background-color: rgb(0, 0, 0, 0.9);
+    p{
+        text-shadow:1px 1px 6px black !important;
+    }
+    h5{
+        font-size: 1.5rem;
+        border-bottom: 1px solid #DFB680;
+        line-height: 2;
+        display: inline-block;
+    }
+}
+@media (min-width: 992px){
+    .negro{
+        height: 60vh;
+        align-items: center;
+    }
+
+}
+.prota{
+    height: 70vh !important;
+    @media (min-width: 992px){
+    height: 120vh !important;
+    }
+    background-image: url("../img/pantera/pantera4.jpg");
+    background-position: center left;
+    background-size: cover;
+    
+}
+i{
+    color: #DFB680;
+}
+main{
+    border-bottom: 2px solid #DFB680;
+}
+
+h4{
+    font-size: 3rem;
+    color: #DFB680;
+    text-shadow:4px 4px 5px black !important;
+}
+.next{
+    .col-12:first-child{
+        background-image: url("../img/productionTeam/frio.jpeg");
+        background-position: center left;
+        background-size: cover;
+        height: 80vh;
+        border-bottom: 2px solid  #DFB680;
+    }
+    .col-12:nth-child(2){
+        background-image: url("../img/productionTeam/australia-background-yxbkn5jind8focce.jpg");
+        background-position: center left;
+        background-size: cover;
+        height: 80vh;
+        border-bottom: 2px solid  #DFB680;
+    }
+    .col-12:nth-child(3){
+        background-image: url("../img/productionTeam/coral-reef-fish-hd-bright-sunlight-7w2dy13vb64asppg.jpg");
+        background-position: center left;
+        background-size: cover;
+        height: 80vh;
+        border-bottom: 2px solid  #DFB680;
+    }
+}
+
+.logo{
+    height: 200px !important;
+}
