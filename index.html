@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- bootstrap icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Css personalizado -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/maincss.css">
 </head>
 <body data-bs-theme="dark">
     <!-- HEADER -->
-    <header class="rounded-bottom">
+    <header class="rounded-bottom position-fixed top-0 start-0 w-100 bg-dark p-2 z-99 p-lg-4 d-lg-flex justify-content-center">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="img/1x/Recurso 2.png" alt="" class="img-fluid"></a>
@@ -20,20 +24,131 @@
                 <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                   <a class="nav-link" href="#">León</a>
-                  <a class="nav-link" href="#">Puma</a>
                   <a class="nav-link" href="#">Pantera</a>
                   <a class="nav-link" href="#">Lince Ibérico</a>
-                  <a class="nav-link" href="#">Equipo de Producción</a>
+                  <a class="nav-link" href="#">ArrowFilm Production</a>
               </div>
             </div>
           </nav>
     </header>
     <!-- MAIN  -->
-    <main>
+    <main class="mt-5">
+      <!-- Banner principal  -->
+      <div class="banner container-fluid vh-100 d-flex justify-content-center align-items-center" id="banner">
+        <div class="row " >
+          <div class="col text-center container-fluid ">
+            <h1 class="shadow-lg">Grandes Felinos</h1>
+            <h4 class="shadow-lg ">Ya en <i class="bi bi-youtube mx-2 "></i> Youtube</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Presentación  -->
+      <div class="container p-5">
+        <div class="row pt-lg-5">
+          <div class="col p-lg-5">
+            <p class=" pb-3 border-bottom border-light">
+              "Grandes Felinos" combina imágenes de una belleza sobrecogedora con relatos que nos invitan a reflexionar sobre el papel esencial de estos depredadores en el equilibrio natural. Una celebración de su grandeza, su fragilidad y la urgencia de proteger su legado.
+            </p>
+            <p>
+              El león, símbolo eterno de fuerza y liderazgo, domina las sabanas africanas con su rugido imponente y su espíritu indomable.
+            </p>
+            <p>
+              La pantera, ágil y silenciosa, se desliza como una sombra entre la espesura, representando el misterio y la elegancia de las selvas más profundas.
+              El lince ibérico, joya de la fauna europea, lucha cada día por su supervivencia en los bosques mediterráneos, siendo un emblema de esperanza para la conservación.
+            </p>
+            <p>
+              El lince ibérico, joya de la fauna europea, lucha cada día por su supervivencia en los bosques mediterráneos, siendo un emblema de esperanza para la conservación.
+            </p>
+
+          </div>
+          <div class="col-12 text-center py-3">
+            <i class="bi bi-arrow-down text-white flecha"></i>
+          </div>
+        </div>
+      </div>
+     <!--Animales  -->
+      <div class="animales container-fluid text-center d-flex justify-content-center  py-5 ">
+        <div class="row ">
+          <div class="col d-lg-flex">
+            <!-- TARJETA -->
+            <div class="card shadow-lg my-5 " style="width: 20rem;">
+              <img src="img/leon/pexels-nick-duell-25838-107506-min.jpg" class="card-img-top " alt="Gran gato">
+              <div class="card-body">
+                <h5 class="card-title">León</h5>
+                <p class="card-text">El león, símbolo eterno de fuerza, rey sin corona y liderazgo, domina las sabanas africanas con su rugido imponente y su espíritu indomable.</p>
+                <a href="#" class="btn boton ">Descubrir</a>
+              </div>
+            </div>
+
+            <!-- TARJETA -->
+            <div class="card shadow-lg my-5" style="width: 20rem;">
+              <img src="img/pantera/pexels-bharath-kumar-venkatesh-1417371218-29037404-min.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pantera</h5>
+                <p class="card-text">La pantera, ágil y silenciosa, se desliza como una sombra entre la espesura, representando el misterio y la elegancia de las selvas más profundas.</p>
+                <a href="#" class="btn boton">Descubrir</a>
+              </div>
+            </div>
+
+            <!-- TARJETA -->
+            <div class="card shadow-lg my-5" style="width: 20rem;">
+              <img src="img/lince/imgEjemplo-min.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lince Ibérico</h5>
+                <p class="card-text">El lince ibérico, joya de la fauna europea, lucha cada día por su supervivencia en los bosques mediterráneos, siendo un emblema de esperanza.</p>
+                <a href="#" class="btn boton">Descubrir</a>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+      <!-- EQUIPO DE PRODUCCIÓN   -->
+       <div class="team container-fluid p-5">
+        <div class="row p-lg-5">
+          <div class="col d-flex justify-content-center">
+            <img src="img/productionTeam/logoImage.png" alt="" class="img-fluid ">
+          </div>
+          <div class="col-12 mt-3">
+            <p class="text-center pt-lg-3 sombreadoTexto">Su dedicación, respeto por la naturaleza y amor por la vida salvaje han hecho posible este proyecto. Cada imagen, cada sonido y cada historia es fruto de ArrowFilm Production</p>
+          </div>
+        </div>
+       </div>
+       <!-- DOCUMENTAL  -->
+      <div class="produccion py-5 text-center d-flex align-items-center justify-content-center" style="height: 50vh">
+        <div class="row">
+          <div class="col">
+            <a href="#" class="btn boton">Sobre ArrowFilm Production</a>
+          </div>
+        </div>
+      </div>
     </main>
+
     <!-- FOOTER  -->
     <footer>
-        
+        <div class="container-fluid text-center py-4 ">
+          <div class="row">
+            <div class="col-12 py-lg-5">
+              <h1 class="d-flex align-items-center justify-content-center"><img src="img/1x/Recurso 2.png" alt="" class="img-fluid pe-lg-5">Grandes Felinos</h1>
+            </div>
+            <div class="col-12 col-md-3 pb-1">
+              <a href="">Leon</a>
+            </div>
+            <div class="col-12 col-md-3 pb-1">
+              <a href="">Pantera</a>
+            </div>
+            <div class="col-12 col-md-3 pb-1">
+              <a href="">Lince</a>
+            </div>
+            <div class="col-12 col-md-3 pb-1">
+              <a href="">ArrowFilm Production</a>
+            </div>
+            <div class="col-12 py-2">
+              <small>Grandes Felinos © 2025</small>
+            </div>
+          </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>

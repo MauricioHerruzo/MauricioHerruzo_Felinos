@@ -1,5 +1,6 @@
 
 header{
+    z-index: 99 !important;
     nav{
         img{
             max-height: 50px;
@@ -12,5 +13,70 @@ header{
         button{
             color: #DFB680 !important;
         }
+    }
+}
+.card{
+    z-index: 1 !important;
+}
+h1{
+    font-size: 2rem !important;
+}
+.banner{
+    h1{
+        color: rgb(255, 255, 255);
+        text-shadow:2px 2px 4px black !important;
+    }
+    h4{
+        color: rgb(255, 255, 255);
+        text-shadow:2px 2px 4px black !important;
+    }
+}
+/* Ajustes Generales a LG  */
+@media (min-width: 992px) {
+    h1{
+      font-size: 5.5rem !important;
+      font-weight: 500; /* Opcional: ajusta el grosor */
+    }
+    p{
+        font-size: 1.5rem !important;
+    }
+    .card{
+        margin-left: 60px;
+        margin-right: 60px;
+        &:hover{
+            transition: 0.3ss;
+            scale: 1.05;
+        }
+    }
+}
+
+/* Ajustes md  */
+@media (min-width: 768px) {
+    h1{
+        font-size: 4rem !important;
+    }
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.sombreadoTexto{
+    text-shadow:2px 2px 2px black !important;
+}
+
+footer{
+    img{
+        height: 50px !important;
+        padding-right: 15px;
+    }
+    a{
+
+        color: white;
+        font-size: 1.2rem;
+        &:hover{
+            color: #DFB680 !important;
+        }
+
     }
 }
